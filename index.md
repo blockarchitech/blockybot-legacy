@@ -1,37 +1,10 @@
-## Welcome to GitHub Pages
+<h1>BlockyBot - Rewritten in Python</h1>
 
-You can use the [editor on GitHub](https://github.com/BlockArchitech/discord-bot/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+I've decided to rewrite my discord bot, blockybot in python because:
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+The hosting provider i was using allowed me to create custom commands, embeds, etc, but the uptime was terrible, and i couldn't stand it.
+I had to watch an AD every 30 miniutes to keep in online (like, come on)
+Literally 0 support.
 
-### Markdown
+So im rewriting in in python. Anyone can use this as a template to make their own discord bot, if they would like, but you will need to add your OWN discord bot token in the .env file.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/BlockArchitech/discord-bot/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
