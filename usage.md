@@ -26,6 +26,6 @@ After everything is installed, make sure the extensions folder AND the main fold
 
 <h2>Usage</h2>
 
-To learn how to use the commands, please go to [the help page](blockarchitech.github.io/discord-bot/help)
+To learn how to use the commands, please go to [the help page](https://blockarchitech.github.io/discord-bot/help)
 
 To contribute, download the source code in whatever way you wish, and sign your name at the bottom. Feel free to create a pull request!
