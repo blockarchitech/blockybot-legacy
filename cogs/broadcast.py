@@ -13,6 +13,7 @@ class broadcast(commands.Cog):
         print('[EXTENSION] The Broadcast extension has loaded.')
 
 #BC Commands
+    @commands.command()
     @commands.has_permissions(kick_members = True)
     async def bc(self, ctx, *, message, urgent = None):
         if urgent == "True":
