@@ -1,4 +1,4 @@
-#Ban and kick extension for BlockyBot - ban-kick.def
+#Ban and kick extension for BlockyBot - ban-kick.py - rev. 2
 import discord
 from discord.ext import commands
 client=commands.Bot(command_prefix="blocky.")
