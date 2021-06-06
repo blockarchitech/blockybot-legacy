@@ -62,7 +62,7 @@ for filename in os.listdir(r'cogs'):
 @client.command()
 async def exit(ctx, *, token = None):
     await ctx.send("Checking Access Token...")
-    if token == logout_token:
+    if int(token) == int(logout_token):
 
         await ctx.send("Token verified!")
         await ctx.send("BlockyBot is logging off.")

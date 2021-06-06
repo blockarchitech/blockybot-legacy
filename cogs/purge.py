@@ -12,7 +12,7 @@ class Purge(commands.Cog):
 
     @commands.command()
     @commands.has_permissions(manage_messages = True)
-    async def clear(self, ctx, *, amount = None):
+    async def clear(self, ctx, amount = None):
         await ctx.channel.purge(limit=amount)
         await ctx.send("Complete")
 

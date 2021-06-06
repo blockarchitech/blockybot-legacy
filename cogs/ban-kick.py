@@ -23,7 +23,6 @@ class mod(commands.Cog):
 
         #Send embed and a Reaction
         embed=discord.Embed(title="User Banned", description=f"{member} was sucsessfully banned for the reason {reason}", color=0xFF5733)
-        embed.add_field(name=f"> latency: {client.latency}ms", value="sent by BlockyBot", inline=False)
         embed.set_author(name=f"{member}")
         await ctx.message.add_reaction(emoji="✅")
         await ctx.send(embed=embed)
@@ -42,8 +41,8 @@ class mod(commands.Cog):
         #Kick The Member For The Specified Reason
         await member.kick(reason = reason)
         #Send an Embed and a Reaction saying the user was kicked.
-        embed=discord.Embed(title=":white_check_mark:  User Kicked", description="sent by BlockyBot", color=0xfcf403)
-        embed.set_author(name=f"{member} kicked for reason {reason}")
+        embed=discord.Embed(title="Kicked Sucsessfully.", description=f"Reason: {reason}, sent by BlockyBot", color=0xfcf403)
+        embed.set_author(name=f"{member}")
         await ctx.message.add_reaction(emoji="✅")
         await ctx.send(embed=embed)
 #End Kicked
